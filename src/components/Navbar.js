@@ -5,7 +5,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 const Navbar = () => {
   return (
     
-      <div className='w-full flex justify-between items-center px-6 md:px-24 py-4'>
+      <div className='w-full flex justify-between items-center px-8 md:px-24 py-4'>
         <div>
             <h1 className='text-xl font-lilita border-[2px] border-lightblue text-lightblue p-4'>GA</h1>
         </div>
