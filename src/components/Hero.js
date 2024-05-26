@@ -10,7 +10,7 @@ const Hero = () => {
         <img src={Blob} className='absolute w-[500px] h-[300px]' alt='blob'/>
         <img src={Picture} className='rounded-full h-[300px] w-[300px] z-10 border-[10px] border-lightblue' alt='kay'/>
       </div>
-      <div className='flex flex-col gap-y-5 justify-center'>
+      <div className='flex flex-col gap-y-5 justify-center items-center w-4/5 px-6 lg:w-1/2 lg:items-start'>
         <h2 className='text-3xl md:text-5xl font-serif uppercase'>Godwin Ahiable</h2>
         <h3 className='font-serif text-xl md:text-3xl'>I'm<span className='text-lightblue italic'> <TypeAnimation
         sequence={[
@@ -26,7 +26,7 @@ const Hero = () => {
         style={{ fontSize: '1em', display: 'inline-block' }}
         repeat={Infinity}
       /></span></h3>
-        <p className='font-serif'> I'm passionate about crafting visually appealing, responsive, <br/> and user-friendly interfaces and also leverage my knowledge <br /> of AWS cloud to deliver exceptional web experiences.</p>
+        <p className='font-serif text-wrap max-h-[300px]'> I'm passionate about crafting visually appealing, responsive, and user-friendly interfaces and also leverage my knowledge of AWS cloud to deliver exceptional web experiences.</p>
       </div>
     </div>
   )
