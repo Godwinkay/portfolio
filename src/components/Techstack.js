@@ -17,49 +17,49 @@ const Techstack = () => {
   return (
     <div className="py-12">
       <h1 className="text-center text-4xl font-serif font-bold">Tech Stacks</h1>
-      <div className="flex gap-16 py-12 justify-center flex-wrap px-8">
+      <div className="flex gap-6 md:gap-12 py-12 justify-center flex-wrap px-8">
         <div>
-          <img className="w-16 h-16" src={html} alt="html logo" />
+          <img className="w-8 h-8 md:w-16 md:h-16" src={html} alt="html logo" />
           {/*<FaHtml5 />*/}
         </div>
 
         <div>
-          <img className="w-16 h-16" src={css} alt="" />
+          <img className="w-8 h-8 md:w-16 md:h-16"src={css} alt="" />
           {/*<FaCss3Alt />*/}
         </div>
 
         <div>
-          <img className="w-16 h-16" src={javascript} alt="" />
+          <img className="w-8 h-8 md:w-16 md:h-16" src={javascript} alt="" />
           {/*<IoLogoJavascript />*/}
         </div>
 
         <div>
-          <img className="w-16 h-16" src={tailwind} alt="" />
+          <img className="w-8 h-8 md:w-16 md:h-16" src={tailwind} alt="" />
           {/*<SiTailwindcss />*/}
         </div>
 
         <div>
-          <img className="w-16 h-16" src={reactlogo} alt="" />
+          <img className="w-8 h-8 md:w-16 md:h-16" src={reactlogo} alt="" />
           {/*<FaReact />*/}
         </div>
 
         <div>
-          <img className="w-16 h-16" src={redux} alt="" />
+          <img className="w-8 h-8 md:w-16 md:h-16" src={redux} alt="" />
           {/*<SiRedux />*/}
         </div>
 
         <div>
-          <img className="w-16 h-16" src={github} alt="" />
+          <img className="w-8 h-8 md:w-16 md:h-16" src={github} alt="" />
           {/*<FaSquareGithub />*/}
         </div>
 
         <div>
-          <img className="w-16 h-16" src={aws1} alt="" />
+          <img className="w-8 h-8 md:w-16 md:h-16" src={aws1} alt="" />
           {/*<FaAws />*/}
         </div>
 
         <div>
-          <img className="w-16 h-16" src={aws2} alt="" />
+          <img className="w-8 h-8 md:w-16 md:h-16" src={aws2} alt="" />
         </div>
       </div>
     </div>
