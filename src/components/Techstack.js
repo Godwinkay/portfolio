@@ -4,7 +4,7 @@ import css from "../assets/css.png";
 import javascript from "../assets/js.png";
 import tailwind from "../assets/tailwind.png";
 import reactlogo from "../assets/React-icon.svg.png";
-import redux from "../assets/redux.png";
+import next from "../assets/next.png";
 import github from "../assets/github.png";
 import aws1 from '../assets/aws1.png'
 import aws2 from '../assets/aws2.png'
@@ -15,51 +15,69 @@ import aws2 from '../assets/aws2.png'
 
 const Techstack = () => {
   return (
-    <div className="py-12">
+    <div className="py-12 my-16">
       <h1 className="text-center text-4xl font-serif font-bold">Tech Stacks</h1>
       <div className="flex gap-6 md:gap-12 py-12 justify-center flex-wrap px-8">
         <div>
-          <img className="w-8 h-8 md:w-16 md:h-16" src={html} alt="html logo" />
+          <img data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine" className="w-8 h-8 md:w-16 md:h-16" src={html} alt="html logo" />
           {/*<FaHtml5 />*/}
         </div>
 
         <div>
-          <img className="w-8 h-8 md:w-16 md:h-16"src={css} alt="" />
+          <img data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" className="w-8 h-8 md:w-16 md:h-16"src={css} alt="" />
           {/*<FaCss3Alt />*/}
         </div>
 
         <div>
-          <img className="w-8 h-8 md:w-16 md:h-16" src={javascript} alt="" />
+          <img data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" className="w-8 h-8 md:w-16 md:h-16" src={javascript} alt="" />
           {/*<IoLogoJavascript />*/}
         </div>
 
         <div>
-          <img className="w-8 h-8 md:w-16 md:h-16" src={tailwind} alt="" />
+          <img data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" className="w-8 h-8 md:w-16 md:h-16" src={tailwind} alt="" />
           {/*<SiTailwindcss />*/}
         </div>
 
         <div>
-          <img className="w-8 h-8 md:w-16 md:h-16" src={reactlogo} alt="" />
-          {/*<FaReact />*/}
-        </div>
-
-        <div>
-          <img className="w-8 h-8 md:w-16 md:h-16" src={redux} alt="" />
+          <img data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" className="w-8 h-8 md:w-16 md:h-16" src={next} alt="" />
           {/*<SiRedux />*/}
         </div>
 
         <div>
-          <img className="w-8 h-8 md:w-16 md:h-16" src={github} alt="" />
+          <img data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" className="w-8 h-8 md:w-16 md:h-16" src={reactlogo} alt="" />
+          {/*<FaReact />*/}
+        </div>
+
+        <div>
+          <img data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" className="w-8 h-8 md:w-16 md:h-16" src={github} alt="" />
           {/*<FaSquareGithub />*/}
         </div>
 
         <div>
-          <img className="w-8 h-8 md:w-16 md:h-16" src={aws1} alt="" />
+          <img data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" className="w-8 h-8 md:w-16 md:h-16" src={aws1} alt="" />
           {/*<FaAws />*/}
         </div>
 
         <div>
-          <img className="w-8 h-8 md:w-16 md:h-16" src={aws2} alt="" />
+          <img data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine" className="w-8 h-8 md:w-16 md:h-16" src={aws2} alt="" />
         </div>
       </div>
     </div>
