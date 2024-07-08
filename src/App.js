@@ -5,6 +5,8 @@ import Projects from "./components/Projects";
 import { useEffect } from "react";
 import 'aos/dist/aos.css'
 import Aos from 'aos';
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -27,6 +29,8 @@ function App() {
         </div>
         <Techstack />
         <Projects />
+        <Contact />
+        <Footer />
       </div>
     </div>
   );

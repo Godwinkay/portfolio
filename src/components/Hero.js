@@ -1,9 +1,13 @@
 import React from 'react'
-import Picture from '../assets/kay.JPG'
+import Picture from '../assets/kay2.jpg'
 import Blob from '../assets/blob.png'
 import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
+
+  const handleCVClick = () => {
+    window.open('https://drive.google.com/file/d/1VQJ6lCW072KJPZRev_46D86KSSGFVoXL/view?usp=sharing', '_blank');
+  };
   return (
     <div className='flex flex-col justify-center items-center mt-12 pb-16 px-6 md:px-12 gap-y-5 lg:flex-row-reverse md:justify-around md:mt-24 relative'>
       <div className='flex justify-center'>
@@ -30,8 +34,15 @@ const Hero = () => {
         style={{ fontSize: '1em', display: 'inline-block' }}
         repeat={Infinity}
       /></span></h3>
-        <p className='font-serif text-wrap max-h-[300px] text-sm md:text-base'> I'm passionate about crafting visually appealing, responsive, and user-friendly interfaces and also leverage my knowledge of AWS cloud to deliver exceptional web experiences.</p>
-      </div>
+        <p className='font-serif text-wrap max-h-[300px] text-sm md:text-base text-justify'>  As a dedicated frontend web developer and AWS solutions architect, I am passionate about crafting visually appealing, responsive, and user-friendly interfaces that provide exceptional web experiences. With a deep understanding of modern web technologies and cloud computing principles, I strive to deliver innovative and efficient solutions that cater to the unique needs of my clients.
+        </p>
+        <button
+        className='bg-transparent border-[1px] text-white py-2 px-6 rounded-full hover:bg-blue-500 hover:border-none transition-colors duration-300'
+        onClick={handleCVClick}
+      >
+        View My CV
+      </button>
+        </div>
     </div>
   )
 }

@@ -66,7 +66,7 @@ const Projects = () => {
         <div className="lg:w-1/2">
             <img  data-aos="flip-right"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000" className="rounded-lg" src={rental} alt="thriftwear" />  
+            data-aos-duration="2000" className="rounded-lg" src={rental} alt="car dealership" />  
         </div>
       </div>
 
